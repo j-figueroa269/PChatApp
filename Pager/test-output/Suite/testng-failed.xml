@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pager.testcases.ChatAppTest2">
+        <methods>
+          <include name="sendAMessage"/>
+          <include name="launchChatApp"/>
+          <include name="joinChat"/>
+          <include name="chatLoads"/>
+          <include name="setupTest"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="signoutOfChat"/>
+          <include name="setupSuite"/>
+        </methods>
+      </class> <!-- com.pager.testcases.ChatAppTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

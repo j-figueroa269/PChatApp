@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Executing @BeforeSuite setupSuite() - Setting up reports and Test is getting ready ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @BeforeSuite  setupSuite()- Setup Done- Test can be started ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @BeforeTest setup() - Trying to start Browser and getting application ready ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @BeforeTest setup() - Browser and Application is up and running ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @Test lchatLoads() - verifying app launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verifying accurate title]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @Test chatLoads() Page successfully loaded and has been verified ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured - added to Screenshots folder]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed - screenshot captured and added to report]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @Test joinChat() - Attempting to access chat]]>
+    </line>
+    <line>
+      <![CDATA[ Test data username entered ]]>
+    </line>
+    <line>
+      <![CDATA[Username valid - chat accessed ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @Test joinChat()- Page verified- user has successfully accessed chat ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured - added to Screenshots folder]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed - screenshot captured and added to report]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @Test sendAMessage() - sending a message via chat application]]>
+    </line>
+    <line>
+      <![CDATA[Sending chat]]>
+    </line>
+    <line>
+      <![CDATA[All specified elements are visible]]>
+    </line>
+    <line>
+      <![CDATA[Message verified]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @Test sendAMessage() - Message sent successfully and verified]]>
+    </line>
+    <line>
+      <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured - added to Screenshots folder]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed - screenshot captured and added to report]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Executing @Test signoutOfChat() - signing out of chat]]>
+    </line>
+    <line>
+      <![CDATA[Signout button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot captured - added to Screenshots folder]]>
+    </line>
+    <line>
+      <![CDATA[Test Failed - screenshot captured and added to report]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Preparing to close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @AfterClass tearDown() -Browser and driver instance closed]]>
+    </line>
+    <line>
+      <![CDATA[Preparing to quit driver instance]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing @AfterSuite tearDownSuite() -driver instance closed]]>
+    </line>
+  </reporter-output>
+  <suite name="ChatSuite" duration-ms="10568" started-at="2021-05-31T08:31:17Z" finished-at="2021-05-31T08:31:28Z">
+    <groups>
+    </groups>
+    <test name="ChatApp" duration-ms="10568" started-at="2021-05-31T08:31:17Z" finished-at="2021-05-31T08:31:28Z">
+      <class name="com.pager.testcases.ChatAppTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="setupSuite" is-config="true" duration-ms="1353" started-at="2021-05-31T04:31:16Z" finished-at="2021-05-31T04:31:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @BeforeSuite setupSuite() - Setting up reports and Test is getting ready ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @BeforeSuite  setupSuite()- Setup Done- Test can be started ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="launchChatApp()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="launchChatApp" is-config="true" duration-ms="6136" started-at="2021-05-31T04:31:17Z" finished-at="2021-05-31T04:31:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @BeforeTest setup() - Trying to start Browser and getting application ready ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @BeforeTest setup() - Browser and Application is up and running ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchChatApp -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="setupTest" is-config="true" duration-ms="72" started-at="2021-05-31T04:31:23Z" finished-at="2021-05-31T04:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="chatLoads()[pri:1, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="chatLoads" duration-ms="44" started-at="2021-05-31T04:31:23Z" finished-at="2021-05-31T04:31:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @Test lchatLoads() - verifying app launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verifying accurate title]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @Test chatLoads() Page successfully loaded and has been verified ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chatLoads -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="tearDownMethod" is-config="true" duration-ms="933" started-at="2021-05-31T04:31:23Z" finished-at="2021-05-31T04:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatLoads status=SUCCESS method=ChatAppTest.chatLoads()[pri:1, instance:com.pager.testcases.ChatAppTest@26be92ad] output=Executing @Test lchatLoads() - verifying app launched successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured - added to Screenshots folder]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed - screenshot captured and added to report]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >> Reports Generated ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="setupTest" is-config="true" duration-ms="2" started-at="2021-05-31T04:31:24Z" finished-at="2021-05-31T04:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="joinChat()[pri:2, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="joinChat" duration-ms="404" started-at="2021-05-31T04:31:24Z" depends-on-methods="com.pager.testcases.ChatAppTest.chatLoads" finished-at="2021-05-31T04:31:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @Test joinChat() - Attempting to access chat]]>
+            </line>
+            <line>
+              <![CDATA[ Test data username entered ]]>
+            </line>
+            <line>
+              <![CDATA[Username valid - chat accessed ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @Test joinChat()- Page verified- user has successfully accessed chat ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- joinChat -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="tearDownMethod" is-config="true" duration-ms="317" started-at="2021-05-31T04:31:25Z" finished-at="2021-05-31T04:31:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinChat status=SUCCESS method=ChatAppTest.joinChat()[pri:2, instance:com.pager.testcases.ChatAppTest@26be92ad] output=Executing @Test joinChat() - Attempting to access chat]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured - added to Screenshots folder]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed - screenshot captured and added to report]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >> Reports Generated ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="setupTest" is-config="true" duration-ms="2" started-at="2021-05-31T04:31:25Z" finished-at="2021-05-31T04:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="sendAMessage()[pri:3, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="sendAMessage" duration-ms="1175" started-at="2021-05-31T04:31:25Z" depends-on-methods="com.pager.testcases.ChatAppTest.joinChat" finished-at="2021-05-31T04:31:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @Test sendAMessage() - sending a message via chat application]]>
+            </line>
+            <line>
+              <![CDATA[Sending chat]]>
+            </line>
+            <line>
+              <![CDATA[All specified elements are visible]]>
+            </line>
+            <line>
+              <![CDATA[Message verified]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @Test sendAMessage() - Message sent successfully and verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendAMessage -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="tearDownMethod" is-config="true" duration-ms="469" started-at="2021-05-31T04:31:26Z" finished-at="2021-05-31T04:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendAMessage status=SUCCESS method=ChatAppTest.sendAMessage()[pri:3, instance:com.pager.testcases.ChatAppTest@26be92ad] output=Executing @Test sendAMessage() - sending a message via chat application]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured - added to Screenshots folder]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed - screenshot captured and added to report]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >> Reports Generated ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="setupTest" is-config="true" duration-ms="3" started-at="2021-05-31T04:31:27Z" finished-at="2021-05-31T04:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="FAIL" signature="signoutOfChat()[pri:4, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="signoutOfChat" duration-ms="116" started-at="2021-05-31T04:31:27Z" depends-on-methods="com.pager.testcases.ChatAppTest.chatLoads" finished-at="2021-05-31T04:31:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Signout url not verified -Actual: https://pager-qa-hiring.herokuapp.com/#/chat -Excpected to contain:  signout expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Signout url not verified -Actual: https://pager-qa-hiring.herokuapp.com/#/chat -Excpected to contain:  signout expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.pager.utility.Helper.VerifyPartialText(Helper.java:65)
+	at com.pager.testcases.ChatAppTest.signoutOfChat(ChatAppTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @Test signoutOfChat() - signing out of chat]]>
+            </line>
+            <line>
+              <![CDATA[Signout button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signoutOfChat -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="tearDownMethod" is-config="true" duration-ms="497" started-at="2021-05-31T04:31:27Z" finished-at="2021-05-31T04:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signoutOfChat status=FAILURE method=ChatAppTest.signoutOfChat()[pri:4, instance:com.pager.testcases.ChatAppTest@26be92ad] output=Executing @Test signoutOfChat() - signing out of chat]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing @AfterMethod tearDownMethod() -Capturing screenshot- Test is about to end ]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot captured - added to Screenshots folder]]>
+            </line>
+            <line>
+              <![CDATA[Test Failed - screenshot captured and added to report]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >> Reports Generated ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @AfterMethod tearDownMethod() - Test Completed >> Reports Generated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="tearDown" is-config="true" duration-ms="353" started-at="2021-05-31T04:31:27Z" finished-at="2021-05-31T04:31:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Preparing to close Browser]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @AfterClass tearDown() -Browser and driver instance closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.pager.testcases.ChatAppTest@26be92ad]" name="tearDownSuite" is-config="true" duration-ms="593" started-at="2021-05-31T04:31:28Z" finished-at="2021-05-31T04:31:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Preparing to quit driver instance]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing @AfterSuite tearDownSuite() -driver instance closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.pager.testcases.ChatAppTest -->
+    </test> <!-- ChatApp -->
+  </suite> <!-- ChatSuite -->
+</testng-results>

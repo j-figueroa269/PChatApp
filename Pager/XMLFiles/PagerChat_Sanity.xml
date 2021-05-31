@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChatSuite">
+  <test name="ChatApp">
+    <classes>
+      <class name="com.pager.testcases.ChatAppTest"/>
+    </classes>
+  </test> <!-- ChatApp -->
+</suite> <!-- ChatSuite -->
